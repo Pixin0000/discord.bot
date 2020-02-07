@@ -1,0 +1,22 @@
+{
+    "TOKEN":"NjY5MjM5NjAyNzQ1MzExMjM5.XiiFrg.P33pu87bPjx1K1Htow3j_t0ku5U",
+    "url_pic": ["https://cdn2.ettoday.net/images/457/d457837.jpg"],
+    "pic":["C:\\Users\\Pixin\\Desktop\\project\\練習檔\\discord.bot\\photo\\1.png",
+            "C:\\Users\\Pixin\\Desktop\\project\\練習檔\\discord.bot\\photo\\2.png",
+            "C:\\Users\\Pixin\\Desktop\\project\\練習檔\\discord.bot\\photo\\3.png",
+            "C:\\Users\\Pixin\\Desktop\\project\\練習檔\\discord.bot\\photo\\4.png",
+            "C:\\Users\\Pixin\\Desktop\\project\\練習檔\\discord.bot\\photo\\5.png"],
+    "construct":
+    [
+        "!nowplaying - 顯示現在播放的音樂",
+        "!play <title|URL|subcommand> - 播放指定歌曲",
+        "!playlists - 顯示可用的播放清單",
+        "!queue [pagenum] - 顯示播放對列",
+        "!remove <position|ALL> - 將歌曲移除播放對列",
+        "!search <query> - 在YouTube上搜尋音樂",
+        "!scsearch <query> - 在Soundcloud上搜尋音樂",
+        "!shuffle - 隨機播放你添加的歌曲",
+        "!skip - 投票決定是否跳過該歌曲"
+
+    ]
+}
