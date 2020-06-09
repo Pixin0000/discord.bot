@@ -42,43 +42,6 @@ async def pic(ctx):
     pic = discord.File(random_pic)
     await ctx.send(file=pic)
 
-
-@bot.command()
-async def 臭狗(ctx):
-    await ctx.send('陳奕祥')
-
-@bot.command()
-async def test(ctx):
-    keyboard.press("f5");
-    keyboard.release("f5");
-    await ctx.send('123');
-
-@bot.command()
-async def 龜兒子(ctx):
-    await ctx.send('陳奕祥')
-
-
-@bot.command()
-async def 武漢肺炎(ctx):
-    await ctx.send('去陳奕祥家')
-
-
-@bot.command()
-async def nmsl(ctx):
-    await ctx.send('你媽死了')
-
-
-@bot.command()
-async def 成員(ctx):
-    member = bot.get_all_members()
-    await ctx.send(member)
-
-
-@bot.command()
-async def 陳奕翔(ctx):
-    await ctx.send('快點上線')
-
-
 @bot.command()
 async def 指令(ctx):
     for data in jdata['construct']:
